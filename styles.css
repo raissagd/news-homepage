@@ -47,3 +47,26 @@ body {
   max-width: 1100px;
   margin: 0 auto;
 }
+
+/* Navbar */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav ul li {
+  color: var(--Dark-blue);
+  cursor: pointer;
+}
+nav ul li:hover {
+  color: var(--Redish-orange);
+}
