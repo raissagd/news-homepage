@@ -5,3 +5,45 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+:root {
+  --Light-orange: hsl(35, 77%, 62%);
+  --Redish-orange: hsl(5, 85%, 63%);
+  --White: hsl(36, 100%, 99%);
+  --Light-gray: hsl(233, 8%, 79%);
+  --Grayish-blue: hsl(236, 13%, 42%);
+  --Dark-blue: hsl(240, 100%, 5%);
+}
+
+/* Configurações padrão */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  font-size: 15px;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
