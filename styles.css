@@ -1,11 +1,3 @@
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 :root {
   --Light-orange: hsl(35, 77%, 62%);
   --Redish-orange: hsl(5, 85%, 63%);
@@ -185,4 +177,59 @@ nav ul li:hover {
 .new-blog p {
   color: var(--Grayish-blue);
   max-width: 260px;
+}
+
+/* Seção Inferior */
+
+.bottom-content {
+  display: flex;
+  grid-column: 3 span;
+  grid-row: 1 span;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.bottom-blog {
+  display: flex;
+  align-items: center;
+  height: fit-content;
+}
+
+.bottom-blog img {
+  object-fit: cover;
+  width: 100%;
+  height: 180px;
+  padding-right: 1rem;
+}
+
+.bottom-blog h2 {
+  color: var(--Grayish-blue);
+  font-size: 2rem;
+}
+
+.bottom-blog-info h3 {
+  cursor: pointer;
+  color: var(--Dark-blue);
+  padding-bottom: 10px;
+}
+
+.bottom-blog-info h3:hover {
+  color: var(--Redish-orange);
+}
+
+.bottom-blog-info p {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--Grayish-blue);
+}
+
+/* Default */
+
+.attribution {
+  font-size: 11px;
+  padding-bottom: 10px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
